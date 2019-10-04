@@ -7,10 +7,10 @@ public class Actor{
     private  String Gender;
     private int Age;
 
-    public Actor(String Name, String Gender, int Age) {
-        this.Name = Name;
-        this.Gender = Gender;
-        this.Age = Age;
+    public Actor(String name, String gender, int age) {
+        Name = name;
+        Gender = gender;
+        Age = age;
     }
 
     @Override
