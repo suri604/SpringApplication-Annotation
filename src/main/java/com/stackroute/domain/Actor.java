@@ -7,15 +7,9 @@ public class Actor{
     private  String Gender;
     private int Age;
 
-    public void setName(String Name) {
+    public Actor(String Name, String Gender, int Age) {
         this.Name = Name;
-    }
-
-    public void setGender(String Gender) {
         this.Gender = Gender;
-    }
-
-    public void setAge(int Age) {
         this.Age = Age;
     }
 
